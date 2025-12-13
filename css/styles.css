@@ -35,14 +35,22 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf
 }
+
 .address-list-link {
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.address-list-link:hover,
+.address-list-link:focus {
+color: #404bbf
 }
 /* ------------------------------------------------HERO---------------------------------------------------------- */
 
@@ -63,6 +71,12 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
 background-color:#4D5AE5 ;
+cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+background-color: #404bbf
+}
 }
 /* -----------------------------------------------FEATURES----------------------------------------------------- */
 
