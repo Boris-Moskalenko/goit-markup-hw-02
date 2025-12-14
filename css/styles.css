@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #ffffff;
 }
 ul {
@@ -8,6 +8,7 @@ ul {
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 /* --------------------------------------HEADER----------------------------------------------------- */
 
@@ -34,7 +35,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2E2F42;}
 
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -44,6 +45,7 @@ a {
 .address-list-link {
 font-weight: 400;
 font-size: 16px;
+font-style: normal;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
@@ -75,8 +77,7 @@ cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-background-color: #404bbf
-}
+background-color: #404bbf;
 }
 /* -----------------------------------------------FEATURES----------------------------------------------------- */
 
@@ -85,11 +86,11 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color: #2E2F42;
 }
 .features-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
 }
 /* -------------------------------------------TEAM-------------------------------------------------------------- */
 .team {
@@ -100,6 +101,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+color: #2E2F42;
 }
 
 .team-list {}
@@ -114,12 +116,12 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
+color: #2E2F42;
 }
 .team-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
-color: #434455;
 }
 /* ---------------------------------------------PORTFOLIO---------------------------------------------------- */
 .portfolio {}
@@ -129,6 +131,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+color: #2E2F42;
 }
 
 .portfolio-list {}
@@ -142,11 +145,11 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
 letter-spacing: 0.02em;
+color: #2E2F42;
 }
 .portfolio-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
 }
 
 /* ---------------------------------------------FOOTER------------------------------------------------------- */
